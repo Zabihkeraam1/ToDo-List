@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top left, red, blue);
+    height: 100vh;
+}
+.title{
+    text-align: center;
+}
+.todo-box{
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-todo{
+    background-color: antiquewhite;
+}
+.list{
+    list-style-type:none;
+    margin: 0;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+}
+.box-sizing{
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.49);
+    height: 25px;
+    border-radius: 12px;
+    background-color: lightgray;
+}
+.todo-text{
+    height: 25px;
+    padding-left: 15px;
+    margin-left: 0;
+}
+:focus{
+    background-image: linear-gradient(to right, lightsalmon, lightgreen);
+    transform: scale(1.1);
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.btn{
+    border-radius: 12px;
+    padding: 5px;
+}
+.btn-primary{
+    background-color: chartreuse;
+}
+.btn-secondary{
+    background-color: #ef4728;
+}
+.newLi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 10px rgba(199, 243, 243, 0.61);
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.todo-list-text{
+    order: 2;
+    justify-self: end;
+}
+.delete-btn{
+    order: 1;
+    justify-self: start;
+}
